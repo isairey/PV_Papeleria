@@ -1,7 +1,7 @@
 # 🛒 Sistema de Punto de Venta - Papelería
 
 <p align="center">
-  <img width="600" src="https://via.placeholder.com/800x300.png?text=POS+Papeleria" alt="POS Papelería Banner"/>
+
 </p>
 
 <p align="center">

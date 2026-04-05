@@ -1,0 +1,17 @@
+Papelería - Generacion de Ticket de Venta
+
+Lo atendió: carolina
+Folio del ticket: 816296143
+Fecha: %31/3/2020% || 3:14:7
+-------------------------
+
+Nombre: algo de algo    $14.0, Folio: <4> -- Tipo de Producto: algo
+
+-------------------------
+Subtotal: $14.0
+IVA: $2.24
+Total: $16.24
+Pago: $50
+Cambio: $33.760002
+
+Direccion: X X X X, gracias por su preferencia.

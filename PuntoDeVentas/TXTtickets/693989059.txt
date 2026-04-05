@@ -1,0 +1,19 @@
+Papelería - Generacion de Ticket de Venta
+
+Lo atendió: carolina
+Folio del ticket: 693989059
+Fecha: %31/3/2020% || 3:25:50
+-------------------------
+
+Nombre: 123    $123.0, Folio: <123> -- Tipo de Producto: 1231
+Nombre: Vaso de Plastico    $14.0, Folio: <1234> -- Tipo de Producto: Vaso
+Nombre: algo de algo    $14.0, Folio: <4> -- Tipo de Producto: algo
+
+-------------------------
+Subtotal: $151.0
+IVA: $24.16
+Total: $175.16
+Pago: $200
+Cambio: $24.839996
+
+Direccion: X X X X, gracias por su preferencia.

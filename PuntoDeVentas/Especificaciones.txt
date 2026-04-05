@@ -1,0 +1,12 @@
+Base de datos: SOLO funciona con MYSQL.
+Login: tiene boton para registar o entrar a menú con opciones que desee realizar.
+Formulario de registro: guarda los datos de usuario en una tabla de base de datos.
+en el menú:
+	sirve el boton de:
+		-registro de productos
+		-Inventario
+		-Usuario
+		-Registro de proveedores
+		-Proveedores
+		-Venta y flujo de caja
+cuando en venta y flujo de caja se la da al botob de finalizar compra genera un txt con la informacion que son los tickets

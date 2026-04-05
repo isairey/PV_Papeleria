@@ -1,0 +1,18 @@
+Papelería - Generacion de Ticket de Venta
+
+Lo atendió: null
+Folio del ticket: 816368702
+Fecha: % 29/3/2020 % || 14:26:18 
+-------------------------
+
+Nombre: algo de algo    $14.0, Folio: <4> || Tipo de Producto: algo
+Nombre: algo de algo    $14.0, Folio: <4> || Tipo de Producto: algo
+
+-------------------------
+Subtotal: $28.0
+IVA: $4.48
+Total: $32.48
+Pago: $50
+Cambio: $17.52
+
+Direccion: X X X X, gracias por su preferencia.

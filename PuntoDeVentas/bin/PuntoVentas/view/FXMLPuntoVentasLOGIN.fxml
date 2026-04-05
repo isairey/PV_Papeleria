@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorOpcion" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="897.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PuntoVentas.view.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f2021" height="592.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="904.0" />
+      <ImageView fitHeight="431.0" fitWidth="412.0" layoutX="13.0" layoutY="33.0" opacity="0.53" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img1.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a72a28" height="543.0" layoutX="457.0" layoutY="24.0" opacity="0.81" stroke="BLACK" strokeType="INSIDE" width="421.0" />
+      <PasswordField fx:id="CAJAcontrasenia" layoutX="492.0" layoutY="314.0" opacity="0.49" prefHeight="35.0" prefWidth="364.0" promptText="contraseña">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font></PasswordField>
+      <TextField fx:id="CAJAusuario" layoutX="492.0" layoutY="260.0" opacity="0.41" prefHeight="35.0" prefWidth="364.0" promptText="Usuario" />
+      <Button fx:id="entrar" layoutX="572.0" layoutY="480.0" mnemonicParsing="false" onAction="#cargarListado" prefHeight="35.0" prefWidth="190.0" style="-fx-background-color: #FF1744;" text="Entrar" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="19.0" />
+         </font></Button>
+      <Button fx:id="Registrarse" layoutX="49.0" layoutY="316.0" mnemonicParsing="false" onAction="#cargarRegistro" prefHeight="35.0" prefWidth="342.0" style="-fx-background-color: #FF1744;" text="Registrarse" textFill="#fffbfb">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="Regresar" layoutX="14.0" layoutY="542.0" mnemonicParsing="false" onAction="#cargarOPCIONBASEDATOS" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: #FF1744;" text="Rergresar" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="14.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="561.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iniciar Sesion" wrappingWidth="227.7366943359375">
+         <font>
+            <Font name="Arial Narrow" size="38.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido a PuntodeVenta" wrappingWidth="325.336669921875">
+         <font>
+            <Font name="Arial Narrow" size="49.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="23.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Papelería&quot;" wrappingWidth="227.7366943359375">
+         <font>
+            <Font name="Arial Narrow" size="43.0" />
+         </font>
+         
+      </Text>
+      <TextField fx:id="consola" disable="true" layoutX="539.0" layoutY="423.0" prefHeight="35.0" prefWidth="243.0" />
+      <ComboBox fx:id="tipoUsuario" layoutX="589.0" layoutY="382.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

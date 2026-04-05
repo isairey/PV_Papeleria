@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="904.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PuntoVentas.view.ControllerReportes">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a72a28" height="524.0" layoutX="58.0" layoutY="34.0" stroke="BLACK" strokeType="INSIDE" width="787.0" />
+      <ImageView fitHeight="648.0" fitWidth="886.0" layoutX="20.0" layoutY="20.0" opacity="0.12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="320.0" layoutY="34.0" prefHeight="73.0" prefWidth="305.0" text="Reporte de ventas" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablaReporte" layoutX="159.0" layoutY="232.0" prefHeight="247.0" prefWidth="419.0">
+        <columns>
+            <TableColumn fx:id="folio" prefWidth="61.333343505859375" text="Folio" />
+            <TableColumn fx:id="nombreProduct" prefWidth="211.33328247070312" text="Descripcion" />
+            <TableColumn fx:id="precio" prefWidth="72.00006103515625" text="Total" />
+            <TableColumn fx:id="cantidadProducto" prefWidth="73.99993896484375" text="#Producto" />
+        </columns>
+      </TableView>
+      <Label layoutX="604.0" layoutY="328.0" text="Ganancia total" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="17.0" />
+         </font></Label>
+      <TextField fx:id="ivaText" layoutX="621.0" layoutY="280.0" opacity="0.75" prefHeight="26.0" prefWidth="179.0" />
+      <Label layoutX="161.0" layoutY="163.0" text="Fecha:" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      
+      
+      <TextField fx:id="fechaText" layoutX="161.0" layoutY="187.0" opacity="0.75" prefHeight="26.0" prefWidth="217.0" />
+      <TextField fx:id="gananciaText" layoutX="621.0" layoutY="370.0" opacity="0.75" prefHeight="26.0" prefWidth="179.0" />
+      <Label layoutX="602.0" layoutY="245.0" text="Total de IVA" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="17.0" />
+         </font></Label>
+         
+      <TextField fx:id="folioReporte" layoutX="607.0" layoutY="187.0" opacity="0.75" prefHeight="25.0" prefWidth="111.0" />
+      
+      <Label layoutX="607.0" layoutY="163.0" text="Folio de reporte" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="17.0" />
+         </font></Label>
+      <Button fx:id="Regresar" layoutX="161.0" layoutY="524.0" mnemonicParsing="false" onAction="#cargarListado" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #FF1744;" text="Regresar" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="12.0" />
+         </font></Button>
+      <Button fx:id="Salir" layoutX="69.0" layoutY="524.0" mnemonicParsing="false" onAction="#regresarLogin" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #FF1744;" text="Salir" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font></Button>
+      <Button fx:id="buscarFolio" layoutX="727.0" layoutY="187.0" mnemonicParsing="false" onAction="#ejecutar" prefHeight="26.0" prefWidth="74.0" style="-fx-background-color: #FF1744;" text="Buscar" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="12.0" />
+         </font>
+      </Button>
+      
+    
+      <TextField fx:id="consola" disable="true" layoutX="409.0" layoutY="188.0" prefHeight="25.0" prefWidth="179.0" />
+   </children>
+</AnchorPane>

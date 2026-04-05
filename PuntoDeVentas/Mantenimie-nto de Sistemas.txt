@@ -1,0 +1,43 @@
+Instructor: M.C. Aremy Qiaya Virrueta Gordillo
+
+Email: avirrueta.upch@gmail.com
+
+Clave de Edmodo: c3v8q2
+
+===========================================================================================
+
+Objetivo: El alumno sera capaz de dar mantenimiento a sistemas de software aplicando a los principios de diseño de software, documentacion, depuracion y pruebas en problemas reales.
+
+
+Las metodologias agiles de desarrollo de software son a la fecha, parte importante de la respuesta a los problemas planeados en el fenomeno conocido como la crisis del software. Estas metodologias proponen dividir cada proyecto en partes mas pequeñas, permitiendohacer entregas de software funcional
+
+Una de las principales razones por las que los clientes son cautelosos en la adopción de estas metodologias es la aparente falta de elementos y/o artefactos que apoyan el mantenimiento de las aplicaciones, ya que con las metodologias robustas, el mantenimiento se apoya en gran medida en los artefactos generados en etapas de analisis y diseño, que se hacen menos prioritarios en las nuevas tendencias.
+
+Algunos factores importantes que influyen en el proceso de mantenimiento con la complejidad del software, el tamaño del mismo y el conocimiento que tengan de el los desarrolladores. Estos factores son impactados por practicas de las metodologías agiles de desarrollos de Software, permitiendo reducir el efecto negativo de los mismos en el mantenimiento y conservando la agilidad.
+
+------------------ Desarrollo Dirigido por Pruebas (TDD por sus siglas en ingles) ------------------
+
+Es una Tecnica de desarrollo en la que no se implementa una funcionalidad hasta que no se haya escrito la prueba para la misma, por lo cual se construyen unicamente funcionalidades que pasen las pruebas.
+
+------------------ Refactorización ------------------
+
+Consiste en reorganizar el codigo para que sea mas limpio y por ende mas facil de mantener 
+
+------------------ Priorización ------------------
+
+------------------ Conocimiento de Software ------------------
+
+Las metodologias agiles se fundamentan en la interaccion cara a cara entre el equipo de desarrollo y los stakeholgers del noegicio, por lo cual el 
+
+------------------ Punto de venta ------------------
+
+Aplicacion de escritorio de proposito general que permite el control de lsa ventas de productos con establecimiento. Este punto de venta es generico y enfocado a controlar la distrivucion que hacen los usuarios de los productos que tienen almacenados en el sistema. Incluye funcionalidades basicas de punt ode venta y un conjunto de reportes que apoyan al dueño para el control del establecimiento.
+
+------------------ Requerimientos de diseño de software ------------------
+
+1) Arquitectura MVC
+2) Proyecto JAVAFX (Eclipse y Scene Builder)
+3) 
+
+
+Modelo Calses - Entidad Relación

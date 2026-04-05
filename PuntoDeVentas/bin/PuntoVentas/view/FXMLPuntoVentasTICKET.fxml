@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="904.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PuntoVentas.view.ControllerTickets">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a72a28" height="524.0" layoutX="59.0" layoutY="21.0" stroke="BLACK" strokeType="INSIDE" width="787.0" />
+      <ImageView fitHeight="648.0" fitWidth="886.0" layoutX="20.0" layoutY="20.0" opacity="0.12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="147.0" layoutY="39.0" prefHeight="55.0" prefWidth="435.0" text="PuntodeVenta &quot;Papelería&quot;" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView layoutX="129.0" layoutY="175.0" prefHeight="186.0" prefWidth="646.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Cantidad" />
+          <TableColumn prefWidth="272.0" text="Descripción" />
+            <TableColumn prefWidth="137.5999755859375" text="Precio c/u" />
+            <TableColumn prefWidth="160.800048828125" text="Importe $" />
+        </columns>
+      </TableView>
+      <Label layoutX="274.0" layoutY="391.0" text="Total de articulos" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="341.0" layoutY="425.0" text="Sub total" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="365.0" layoutY="491.0" text="Total" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="341.0" layoutY="457.0" text="Total IVA" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="18.0" />
+         </font></Label>
+      <TextField layoutX="421.0" layoutY="392.0" opacity="0.75" prefHeight="26.0" prefWidth="232.0" />
+      <TextField layoutX="421.0" layoutY="426.0" opacity="0.75" prefHeight="26.0" prefWidth="232.0" />
+      <TextField layoutX="421.0" layoutY="458.0" opacity="0.75" prefHeight="26.0" prefWidth="232.0" />
+      <TextField layoutX="422.0" layoutY="487.0" opacity="0.75" prefHeight="26.0" prefWidth="232.0" />
+      <Button fx:id="Regresar" layoutX="77.0" layoutY="506.0" mnemonicParsing="false" onAction="#cargarListado" style="-fx-background-color: #FF1744;" text="Regresar" textFill="WHITE" />
+      <Button fx:id="Salir" layoutX="777.0" layoutY="506.0" mnemonicParsing="false" onAction="#regresarLogin" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #FF1744;" text="Salir" textFill="WHITE" />
+      <Label layoutX="654.0" layoutY="87.0" text="Fecha:" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font></Label>
+      <TextField layoutX="702.0" layoutY="82.0" opacity="0.75" prefHeight="26.0" prefWidth="124.0" />
+      <TextField layoutX="702.0" layoutY="40.0" opacity="0.75" prefHeight="26.0" prefWidth="124.0" />
+      <Label layoutX="656.0" layoutY="45.0" text="Folio:" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font></Label>
+      <Text fill="WHITE" layoutX="147.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R.F.C 008RGGSAPNDV024" textAlignment="JUSTIFY" wrappingWidth="200.5367431640625">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="147.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Av. Central # 1740 Mz. 48" textAlignment="JUSTIFY" wrappingWidth="200.5367431640625">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="147.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tel. 61-5-88-99         Cel. 9611051502" textAlignment="JUSTIFY" wrappingWidth="244.5367431640625">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

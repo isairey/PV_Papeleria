@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="904.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PuntoVentas.view.ControllerREGISTROPRODUCT">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a72a28" height="524.0" layoutX="67.0" layoutY="34.0" stroke="BLACK" strokeType="INSIDE" width="787.0" />
+      <ImageView fitHeight="648.0" fitWidth="886.0" layoutX="20.0" layoutY="20.0" opacity="0.12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img1.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="cajatipoProduct" layoutX="242.0" layoutY="197.0" prefHeight="26.0" prefWidth="418.0" promptText="Tipo de producto" />
+      <TextField fx:id="cajanombreProveedor" layoutX="243.0" layoutY="402.0" prefHeight="26.0" prefWidth="418.0" promptText="Proveedor." />
+      <TextField fx:id="cajaPrecio" layoutX="243.0" layoutY="354.0" prefHeight="26.0" prefWidth="418.0" promptText="Precio" />
+      <TextField fx:id="cajaFolio" layoutX="243.0" layoutY="296.0" prefHeight="26.0" prefWidth="418.0" promptText="Folio" />
+      <TextField fx:id="cajaNombre" layoutX="243.0" layoutY="244.0" prefHeight="25.0" prefWidth="418.0" promptText="Nombre " />
+      <Label layoutX="58.0" layoutY="148.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="Guardar" layoutX="202.0" layoutY="510.0" mnemonicParsing="false" onAction="#agregar" prefHeight="26.0" prefWidth="210.0" style="-fx-background-color: #ff5757;" text="Guardar" textFill="WHITE" />
+      <Button fx:id="Salir" layoutX="499.0" layoutY="510.0" mnemonicParsing="false" onAction="#regresarLogin" prefHeight="26.0" prefWidth="210.0" style="-fx-background-color: #ff5757;" text="Salir" textFill="WHITE" />
+      <Label layoutX="263.0" layoutY="65.0" prefHeight="51.0" prefWidth="394.0" text="Registro de productos" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CAJAnproductos" layoutX="242.0" layoutY="450.0" prefHeight="26.0" prefWidth="418.0" promptText="Cantidad de producto" />
+   </children>
+</AnchorPane>

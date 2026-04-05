@@ -1,0 +1,17 @@
+Papelería - Generacion de Ticket de Venta
+
+Lo atendió: carolina
+Folio del ticket: 209213836
+Fecha: %31/3/2020% || 3:9:51
+-------------------------
+
+Nombre: 123    $123.0, Folio: <123> -- Tipo de Producto: 1231
+
+-------------------------
+Subtotal: $123.0
+IVA: $19.68
+Total: $142.68
+Pago: $150
+Cambio: $7.3200073
+
+Direccion: X X X X, gracias por su preferencia.

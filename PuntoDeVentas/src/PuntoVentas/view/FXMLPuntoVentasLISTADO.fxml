@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="904.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PuntoVentas.view.ControllerListado">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a72a28" height="524.0" layoutX="71.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" width="787.0" />
+      <ImageView fitHeight="648.0" fitWidth="886.0" layoutX="10.0" layoutY="10.0" opacity="0.12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagenes/img2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="372.0" layoutY="45.0" prefHeight="66.0" prefWidth="236.0" text="Menú" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold Italic" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="Reporte" layoutX="339.0" layoutY="441.0" mnemonicParsing="false" onAction="#cargarReporte" opacity="0.75" prefHeight="63.0" prefWidth="222.0" style="-fx-background-color: #FF1744;" text="Reporte" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Proveedores" layoutX="339.0" layoutY="229.0" mnemonicParsing="false" onAction="#cargarProveedores" opacity="0.75" prefHeight="63.0" prefWidth="222.0" style="-fx-background-color: #FF1744;" text="Proveedores" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="Usuarios" layoutX="83.0" layoutY="229.0" mnemonicParsing="false" onAction="#cargarUsuarios" opacity="0.75" prefHeight="63.0" prefWidth="206.0" style="-fx-background-color: #FF1744;" text="Usuarios" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="RegistroProvee" layoutX="83.0" layoutY="345.0" mnemonicParsing="false" onAction="#cargarRegistroProvee" opacity="0.75" prefHeight="63.0" prefWidth="206.0" style="-fx-background-color: #FF1744;" text="Registro Proveedores" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="salirYregresar" layoutX="756.0" layoutY="520.0" mnemonicParsing="false" onAction="#regresarLogin" style="-fx-background-color: #FF1744;" text="Salir y regresar" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="ventaYflujo" layoutX="608.0" layoutY="345.0" mnemonicParsing="false" onAction="#cargarVentaYFlujo" opacity="0.75" prefHeight="59.0" prefWidth="230.0" style="-fx-background-color: #FF1744;" text="Venta y Flujo de caja" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="Inventario" layoutX="608.0" layoutY="226.0" mnemonicParsing="false" onAction="#cargarInventario" opacity="0.75" prefHeight="59.0" prefWidth="229.0" style="-fx-background-color: #FF1744;" text="Inventario" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="RegistrarProducto" layoutX="341.0" layoutY="343.0" mnemonicParsing="false" onAction="#cargarRegistroProducto" opacity="0.75" prefHeight="63.0" prefWidth="222.0" style="-fx-background-color: #FF1744;" text="Registro de Productos" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

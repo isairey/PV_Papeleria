@@ -42,7 +42,7 @@ Está enfocado en ofrecer una solución simple, rápida y eficiente para pequeñ
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tuusuario/pos-papeleria.git
+git clone https://github.com/tuusuario/PV_Papeleria.git
 Abrir el proyecto en tu IDE:
 IntelliJ IDEA / Eclipse / NetBeans
 Configurar la base de datos:
